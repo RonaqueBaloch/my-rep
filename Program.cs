@@ -41,11 +41,13 @@ namespace sunset
                         {
                             largest=buildings[k];
                         }
+                    if (k < i)
+                    {
                         if (buildings[k] == largest)
                         {
-                           isequal=true ;
+                            isequal = true;
                         }
-
+                    }
                 }
                 if (buildings[i]==largest && isequal == false)
                 {
